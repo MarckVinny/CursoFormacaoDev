@@ -1,0 +1,16 @@
+{
+  "name": "yarn",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "roda": "node index.js"
+  },
+  "dependencies": {
+    "node-emoji": "^2.1.0"
+  },
+  "devDependencies": {
+    "chalk": "^5.3.0"
+  }
+}
