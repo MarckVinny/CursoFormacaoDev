@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integração HTML + CSS #03</title>
+
+    <!-- Importando um CSS de um arquivo externo -->
+    <link rel="stylesheet" href="./css/estilo_css_basico4.css">
+
+    <!-- CSS Interno -->
+    <style>
+        h3 {
+            color: gray;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="exercicios.html">
+        <button type="submit">Voltar</button>
+    </form>
+
+    <h1>Lista de Aprovados</h1>
+    <h3>No Concurso 9842</h3>
+
+    <ol>
+        <li class="destaque">Guilherme</li>
+        <li class="par destaque">Rebeca</li>
+        <li class="destaque">Ana</li>
+        <!-- CSS Inline - Tem prioridade em relação aos outros -->
+        <li style="color: crimson;" class="par">Bia</li>
+        <li>Carlos</li>
+        <li class="par">André</li>
+    </ol>
+</body>
+
+</html>

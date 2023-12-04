@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integração HTML + CSS #03</title>
+
+    <style>
+        /* SELETORES DE TAG */
+        body {
+            background-color: rgb(30, 28, 28);
+        }
+
+        h1 {
+            color: chocolate;
+        }
+
+        h2 {
+            color: aqua;
+        }
+
+        button {
+            background-color: cornflowerblue;
+        }
+
+        button:hover {
+            background-color: chartreuse;
+        }
+
+        button:active {
+            background-color: crimson;
+        }
+
+        li {
+            color: aqua;
+        }
+
+        /* 
+            SELETORES DE CLASSE
+            O seletor "." informa que o estilo será aplicado uma Classe 
+        */
+        .par {
+            color: chartreuse;
+            font-weight: bold;
+        }
+
+        .destaque {
+            font-size: larger;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="exercicios.html">
+        <button type="submit">Voltar</button>
+    </form>
+
+    <h1>Lista de Aprovados</h1>
+
+    <ol>
+        <li class="destaque">Guilherme</li>
+        <li class="par destaque">Rebeca</li>
+        <li class="destaque">Ana</li>
+        <li class="par">Bia</li>
+        <li>Carlos</li>
+        <li class="par">André</li>
+    </ol>
+</body>
+
+</html>

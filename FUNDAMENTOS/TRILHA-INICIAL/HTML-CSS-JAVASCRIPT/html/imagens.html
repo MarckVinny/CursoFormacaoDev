@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <meta charset=UTF-8>
+    <title>Imagens</title>
+</head>
+
+<body>
+    <a href="./exercicios.html">VOLTAR</a><br><br>
+
+    <h1>Página simples com imagens</h1>
+
+    <!-- 
+        https://picsum.photos/200
+
+        A TAG <img> é usada para mostrar uma imagem
+        A propriedade "src" é o caminho da imagem está armazenada.
+        A propriedade "alt" é o texto alternativo que aparecerá, caso o endereço
+        da imagem esteja errado.
+     -->
+    <div>
+        <img src="https://picsum.photos/200" alt="imagem aleatória">
+    </div>
+    <div>
+        <!-- 
+            A TAG <picture>, é um agrupador de TAGs ou um container como uma <div>
+            Deve ser usado em conjunto com as TAGs <source> e <img>.
+         -->
+        <picture>
+            <!-- 
+                A TAG <source> é uma das fontes de imagem.
+                A propriedade "srcset" é o caminho principal.
+                A propriedade "media" diz que: se a página for menor que 600px
+                deve mostrar a imagem da TAG <img>
+             -->
+            <source srcset="https://picsum.photos/500" media="(min-width: 600px)">
+            <img src="https://picsum.photos/100" alt="imagem aleatória2">
+        </picture>
+
+    </div>
+    <div>
+        <!-- Caso falhe o carregamento da imagem, mostra o texto alternativo -->
+        <picture>
+            <source srcset="https://picum.photos/100">
+            <img src="https://pisum.photos/300" alt="imagem teste de falha">
+        </picture>
+    </div>
+
+</body>
+
+</html>

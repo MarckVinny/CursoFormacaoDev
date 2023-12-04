@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herança</title>
+
+    <style>
+        body {
+            border: solid 3px crimson;
+            min-height: 95vh;
+            background-color: rgb(30, 28, 28);
+            /* foi transmitido por herança */
+            font-family: 'Courier New', Courier, monospace;
+            color: chartreuse;
+        }
+
+        h1 {
+            color: chocolate;
+        }
+
+        h2 {
+            color: aqua;
+        }
+
+        button {
+            background-color: cornflowerblue;
+        }
+
+        button:hover {
+            background-color: chartreuse;
+        }
+
+        button:active {
+            background-color: crimson;
+        }
+
+        div {
+            /* Através do valor "inherit" a div herda a borda do elemento pai
+               que no caso é o body.
+            */
+            border: inherit;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="exercicios.html">
+        <button type="submit">Voltar</button>
+    </form>
+
+    <h1>Herança</h1>
+
+    <div>Conteúdo da Página</div>
+
+</body>
+
+</html>

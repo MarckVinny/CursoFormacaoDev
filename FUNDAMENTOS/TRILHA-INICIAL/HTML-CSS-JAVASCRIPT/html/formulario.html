@@ -1,0 +1,116 @@
+<html>
+
+<head>
+    <meta charset=UTF-8>
+    <title>Formulário</title>
+</head>
+
+<body>
+    <h1>Formulário</h1>
+    <!-- 
+        A propriedade "method" possui dois métodos para enviar um formulário:
+        O método padrão é o "get", envia os parâmetros (name) sem tratamento 
+        via URL, deixando os dados visíveis, inseguro para enviar (name="password") por exemplo.
+        O método "post", envia os parâmetros (name) de forma mais secreta internamente.
+     -->
+    <form action="exercicios.html" method="post">
+        <div>
+            <div>
+                <!-- 
+                    A propriedade "for", diz para que "id" é o label.
+                -->
+                <label for="nome">Nome:</label>
+            </div>
+            <!-- 
+                A propriedade "type" informa o tipo do formulário.
+                O "id" identifica o formulário para a TAG <label>.
+                A propriedade "required", diz que o campo é obrigatório.
+                A propriedade "name", envia o conteúdo do formulário via parâmetro pela URL.
+            -->
+            <input type="text" name="nome" id="nome" required>
+        </div>
+        <div>
+            <div>
+                <label for="email">e-mail:</label>
+            </div>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div>
+            <div>
+                <label for="password">Senha:</label>
+            </div>
+            <!-- O tipo "password", mascara o que foi digitado -->
+            <input type="password" name="password" id="password" required>
+        </div>
+        <div>
+            <label for="bio">Fale sobre você!</label>
+            <!-- 
+                A TAG <textarea>, cria uma área de texto.
+                A propriedade "cols" diz qual a largura em caracteres.
+                A propriedade "rows", diz qual a altura visível em caracteres 
+                (acrescentando linhas) enquanto digita.
+             -->
+            <textarea name="bio" id="bio" cols="30" rows="5"></textarea>
+        </div>
+        <div>
+            <div>Tipos de residência:</div>
+            <!-- 
+                CAMPO DE SELEÇÃO ÚNICA
+                O tipo "radio", cria um campo de seleção.
+                Deixando todos os campos com o mesmo "name", faz com que somente um dos campos possa ser selecionado.
+                Para diferenciar cada um dos campos, usamos o "id".
+                A propriedade "value" e usada para enviar o campo selecionado via parâmetro para a URL.
+             -->
+            <input type="radio" name="residencia" id="casa" value="casa">
+            <label for="casa">Casa</label>
+            <input type="radio" name="residencia" id="apto" value="apto">
+            <label for="apto">Apartamento</label>
+            <input type="radio" name="residencia" id="sitio" value="sitio">
+            <label for="sitio">Sítio</label>
+            <input type="radio" name="residencia" id="fazenda" value="fazenda">
+            <label for="fazenda">Fazenda</label>
+        </div>
+        <div>
+            <!-- 
+                COMBO BOX
+                A TAG <select> cria o combo box.
+                A TAG <option> cria as opções do combo box.
+                A primeira opção é a padrão, então é bom criar com o "value" vazio.
+             -->
+            <select name="plano" id="plano">
+                <option value="">Selecione um Plano</option>
+                <option value="gratis">Gratuito</option>
+                <option value="prata">Prata - R$ 59,90</option>
+                <option value="ouro">Ouro - R$ 89,90</option>
+            </select>
+        </div>
+        <div>
+            <div>Interesses:</div>
+            <!-- 
+                SELEÇÃO MÚLTIPLA
+                Para que possa haver múltiplas seleções, cada <checkbox> recebeu
+                uma propriedade "name" diferente.
+             -->
+            <input type="checkbox" name="tecnologia" id="tecnologia">
+            <label for="tecnologia">Tecnologia</label>
+            <input type="checkbox" name="esporte" id="esporte">
+            <label for="esporte">Esporte</label>
+            <input type="checkbox" name="cinema" id="cinema">
+            <label for="cinema">Cinema</label>
+            <input type="checkbox" name="musica" id="musica">
+            <label for="musica">Música</label>
+        </div>
+        <div>
+            <!-- 
+                A propriedade "submit", executa a ação enviar/salvar do formulário.
+            -->
+            <button type="submit">Salvar</button>
+            <!-- 
+                A propriedade "reset", executa a ação de limpar o formulário.
+            -->
+            <button type="reset">Limpar</button>
+        </div>
+    </form>
+</body>
+
+</html>

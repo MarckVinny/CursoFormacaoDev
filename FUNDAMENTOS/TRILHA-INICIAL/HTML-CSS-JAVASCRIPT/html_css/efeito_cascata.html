@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Efeito Cascata</title>
+
+    <style>
+        body {
+            background-color: rgb(30, 28, 28);
+        }
+
+        h1 {
+            color: chocolate;
+        }
+
+        h2 {
+            color: aqua;
+        }
+
+        button {
+            background-color: cornflowerblue;
+        }
+
+        button:hover {
+            background-color: chartreuse;
+        }
+
+        button:active {
+            background-color: crimson;
+        }
+
+        /*
+            Especificidade do Seletor 1,0,0 
+            Tem maior prioridade em sobrescrever parâmetros repetidos
+        */
+        #area2 {
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+            background-color: chartreuse;
+            color: brown;
+        }
+
+        /*
+            Especificidade do Seletor 0,1,0 
+            Tem maior prioridade em sobrescrever parâmetros repetidos
+            em relação a "div".
+            Se houver empate, prevalece a última declarada.
+        */
+        .maior {
+            width: 150px;
+            height: 150px;
+        }
+
+        /*
+            Especificidade do Seletor 0,0,1 
+            Tem menor prioridade em sobrescrever parâmetros repetidos 
+        */
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: crimson;
+            color: aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="exercicios.html">
+        <button type="submit">Voltar</button>
+    </form>
+    <div class="maior">Área #01</div>
+    <div id="area2">Área #02</div>
+
+</body>
+
+</html>

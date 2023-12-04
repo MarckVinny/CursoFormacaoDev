@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quebra de Linha</title>
+</head>
+
+<body>
+    <a href="./exercicios.html">VOLTAR</a><br><br>
+    <!--A tag <br> é usada para quebrar linha -->
+    Olá meu nome é Marcos!!!<br />
+    Até logo!! <br /><br />
+    Bye!!!
+    <br />
+    <br />
+    <h1>O que significa a sigla HTML?</h1><br />
+    <br />
+    Vem da palavra em inglês, HyperText Markup Language.
+    <br />
+    Que em português significa: Linguagem de Marcação de Texto.
+    <br />
+    <br />
+    A tag "< br>" é usada para quebrar linha e pode ser chamada das seguintes formas:
+        <br />
+        <br />
+        <li>Elemento;</li>
+        <li>Tag;</li>
+        <li>Marcação;</li>
+        <br />
+        <br />
+        A ideia de HyperText, vem do inicio da internet, quando existiam os "blogs",
+        onde eram produzidos textos enormes e eram criados LINKs para outros textos.
+        <br />
+        Hoje em dia além de textos, temos: jogos, videos, audio, aplicações em tempo
+        real (real time) e existem diversas aplicações que utilizam o HTML por debaixo,
+        pois, a Linguagem evoluiu para atender as demandas que não foram pensadas.
+        <br />
+        Temos outras Tecnologias que também evoluíram com o tempo como:
+        <br /><br />
+        <li>CSS;</li>
+        Usado para estilizar as páginas (veremos mais a frente).
+        <br /><br />
+        <li>Redes;</li>
+        Onde temos o protocolo HTTP (utilizado para acessar as páginas WEB) que
+        significa HyperText Transference Protocol ou em português: Protocolo de
+        Transferência de Hyper Texto.
+        <br /><br />
+        <h1>Anatomia da TAG</h1>
+        <br /><br />
+        <img src="./images/anatomiaTAG.jpg" alt="anatomiaTAG">
+        <br><br>
+        Agora iremos ver as possibilidades em relação a uma TAG:
+        <br>
+        <ul>
+            <li> #1 - Vimos que uma TAG se
+                inicia com um simbolo de menor que "
+                <" depois o nome da TAG "br" e finaliza com o simbolo de maior que ">" essa é uma das possibilidades de
+                    se usar uma TAG, lembrando que não pode haver ESPAÇO entre o simbolo "<" e o nome da TAG. <br>
+                    Um exemplo prático seria na construção de um parágrafo representado pela TAG de abertura < p> e a de
+                        fechamento < /p> e supondo que no meio do parágrafo tenha
+                            uma palavra em negrito, será usado a TAG de inicio < b> e a de fechamento < /b>.
+                                    <br>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, ab
+                                        saepe?
+                                        Error odio corrupti dolores <b>voluptatibus</b> in incidunt ipsum
+                                        quasi.
+                                        Possimus eos earum corporis totam placeat praesentium impedit eius
+                                        ab.
+                                    </p>
+
+            <li>#2 - No segundo caso vimos que a TAG foi aberta e fechada ao mesmo tempo utilizando o "/>" após
+                o nome
+                da
+                TAG.
+            </li>
+            <li>#3 - No terceiro exemplo, vimos a TAG com dois atributos um do Tipo numérico <b>"x=123"</b> e
+                outro do
+                Tipo
+                String
+                <b>"y='Olá'"</b>
+            </li>
+            <li>#4 - Outra forma é criando uma TAG com corpo tendo um INICIO e um FINAL "< xyz>" e "< /xyz>" e
+                        no meio
+                        colocando o conteúdo referente aquela TAG.
+                        <br />
+                        Com isso, é possível colocar uma TAG dentro da outra por Exemplo:
+                        <br /><br>
+                        < xyz>
+                            <br>
+                            < abc />
+                            <br>
+                            < def />
+                            <br>
+                            < ghi />
+                            <br>
+                            < /xyz>
+
+            </li>
+            <li>
+                #5 - No quinto exemplo temos a TAG com abertura, atributos, corpo e fechamento.
+                <br /><br>
+                < xyz a="123" b="teste">
+                    <br>
+                    < abc />
+                    <br>
+                    < def />
+                    <br>
+                    < ghi />
+                    <br>
+                    < /xyz>
+            </li>
+        </ul>
+</body>
+
+</html>

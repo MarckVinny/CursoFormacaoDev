@@ -1,0 +1,63 @@
+<a href="./exercicios.html">VOLTAR</a><br><br>
+
+<h2>Exemplo de Tabela</h2>
+
+<!-- 
+    <table> Cria uma tabela 
+    border="1"- Cria uma borda com espessura minima
+-->
+<table border="1">
+
+    <!-- <caption> - pouco utilizado 
+        Cria um label para a tabela
+     -->
+    <caption>Resumo da Compra</caption>
+
+    <!-- Organiza o Cabeçalho da Tabela -->
+    <thead>
+        <tr>
+            <!-- <th> table head - Cria o cabeçalho da tabela -->
+            <th>Nome do Produto</th>
+            <th>Preço R$</th>
+            <th>Quant.</th>
+            <th>Valor R$</th>
+        </tr>
+    </thead>
+
+    <!-- Organiza o Corpo da Tabela -->
+    <tbody>
+        <!-- 
+            <tr> table row - Linha da tabela
+                Cria uma linha na tabela 
+                align="center" - Centraliza os itens da linha
+            -->
+        <tr align="center">
+
+            <!-- 
+                    <td> table data - Dados da Tabela
+                        Cria uma coluna na linha 
+                    -->
+            <td>IPad</td>
+            <td>9.800,00</td>
+            <td>5</td>
+            <td>49.000,00</td>
+        </tr>
+        <tr align="center">
+            <td>PC Gamer</td>
+            <td>19.100,00</td>
+            <td>2</td>
+            <td>39.200,00</td>
+        </tr>
+    </tbody>
+
+    <!-- Organiza o Rodapé da Tabela -->
+    <tfoot>
+        <tr align="center">
+
+            <!-- colspan="3" - aumenta a célula da coluna -->
+            <td colspan="3">Total Geral</td>
+            <td>39.200,00</td>
+        </tr>
+    </tfoot>
+
+</table>
