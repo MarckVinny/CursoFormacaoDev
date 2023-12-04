@@ -1,0 +1,79 @@
+:root {                             /*define as variáveis*/
+  --cor-violeta: #302b63;
+  --cor-cinza: rgb(146, 157, 157);
+  --cor-branca: white;
+}
+
+body {
+  display: flex;                        /* fica um ao lado do outro */
+  flex-direction: column;               /* fica um debaixo do outro */
+  justify-content: center;
+  align-items: center;                  /*alinha os itens ao centro*/
+  height: 100%;                         /*altura*/
+  background-color: var(--cor-violeta);   /*cor de fundo definida pela variável*/
+  color: var(--cor-branca);              /*define cor do texto*/
+}
+
+h1, h2{
+  text-align: center;
+}
+
+#informacoes{
+  min-height: 50px; /*altura mínima*/
+  margin: 0 auto;   /*margem de "0px" no topo e na base e "automático" na esquerda e direita*/
+
+}
+
+#iniciar{
+  font-size: 1.4rem;                    /*tamanho da fonte*/
+  font-weight: bold;                    /*peso da fonte*/
+  background-color: var(--cor-cinza);   /*cor do botão*/
+  border: none;                         /*sem borda*/
+  padding: 5px 10px;                    /* "5px" topo e base "10px" esq e dir"*/
+  border-radius: 5px; 
+  margin-top: 10px;                  /*arredondar bordas*/
+  margin-bottom: 10px;                  /*margem de baixo*/
+  color: var(--cor-branca);            /*cor do texto*/
+}
+
+#iniciar:hover{
+  color: var(--cor-violeta);        /*muda a cor do texto do botão*/
+}
+
+#tabuleiro{
+  display: grid;
+  /* grid-template-columns: repeat(3, 1fr);    cria 3 colunas com as definições abaixo */
+  width: min-content;                       /*largura no menor conteúdo possível*/
+  padding-top: 25px;
+}
+
+.posicao{
+  width: 150px;                             /*largura*/
+  height: 150px;                            /*altura*/
+  line-height: 150px;                       /*altura da linha*/
+  font-size: 90px;                          /*tamanho da fonte*/
+  text-align: center;                       /*alinha o texto horizontalmente*/
+  vertical-align: middle;                   /*alinha o texto verticalmente*/
+  background-color: var(--cor-violeta);
+  border: solid var(--cor-branca) 10px;     /*cria uma borda sólida branca de 10px de espessura*/
+}
+
+.posicao-top{
+  border-top: none;             /*retira a borda*/          
+}
+
+.posicao-esq{
+  border-left: none;            /*retira a borda*/
+}
+
+.posicao-dir{
+  border-right: none;           /*retira a borda*/
+}
+
+.posicao-base{
+  border-bottom: none;          /*retira a borda*/
+}
+
+#tamanho{
+  width: 30px;
+}

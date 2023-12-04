@@ -2,7 +2,7 @@
 /codigo-professor
 /jogo-velha
 /lives
-/fundamentos
+
 
 # Created by <https://www.toptal.com/developers/gitignore/api/node,react,nextjs,git,turbo,vercel,visualstudiocode>
 
@@ -32,6 +32,8 @@
 # dependencies
 
 /node_modules
+/.bin
+resolve.ps1
 /.pnp
 .pnp.js
 
