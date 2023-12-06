@@ -26,4 +26,4 @@ ___
 
 ### Trilha Projetos
 
-- [Jogo da Velha](./ARQUITETO/TRILHA-PROJETOS/JOGO-DA-VELHA/ANOTACOES.md)
+- [Jogo da Velha](https://github.com/MarckVinny/Jogo-da-Velha/blob/main/ANOTACOES.md)
