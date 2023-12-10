@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "Jogo Velha - Arquiteto",
+			"path": "ARQUITETO/TRILHA-PROJETOS/JOGO-DA-VELHA/jogo-velha"
+		}
+	],
+	"settings": {
+		"material-icon-theme.folders.associations": {
+			"CURSO-NODE": "src",
+			"modulos-ecmascript": "javascript",
+			"modulos-node": "node",
+			"pacotes": "packages",
+			"ESTRUTURAS_CONTROLE": "functions",
+			"HTML-CSS-JAVASCRIPT": "css",
+			"INTEGRACAO-HTML-CSS-JAVASCRIPT": "css"
+		}
+	}
+}
