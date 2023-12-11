@@ -2,7 +2,7 @@
 
 ___
 
-***Este conteúdo faz parte do curso de Formação DEV da [COD3R](http://www.cod3r.com.br)***
+***Este conteúdo faz parte do curso de Formação DEV da [COD3R](https://www.cod3r.com.br)***
 
 ## Módulo Fundamentos
 
