@@ -17,6 +17,7 @@
 			"ESTRUTURAS_CONTROLE": "functions",
 			"HTML-CSS-JAVASCRIPT": "css",
 			"INTEGRACAO-HTML-CSS-JAVASCRIPT": "css"
-		}
+		},
+		"liveServer.settings.multiRootWorkspaceName": "Jogo Velha - Arquiteto"
 	}
 }
