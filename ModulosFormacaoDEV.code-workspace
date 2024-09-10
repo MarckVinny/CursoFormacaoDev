@@ -1,16 +1,14 @@
 {
 	"folders": [
 		{
-			"path": "."
-		},
-		{
-			"name": "Jogo Velha - Arquiteto",
-			"path": "ARQUITETO/TRILHA-PROJETOS/JOGO-DA-VELHA/jogo-velha"
-		},
-		{
-			"name": "ARQUITETO",
 			"path": "ARQUITETO"
 		},
+		{
+			"path": "FUNDAMENTOS"
+		},
+		{
+			"path": "LIVES"
+		}
 	],
 	"settings": {
 		"material-icon-theme.folders.associations": {
@@ -21,7 +19,6 @@
 			"ESTRUTURAS_CONTROLE": "functions",
 			"HTML-CSS-JAVASCRIPT": "css",
 			"INTEGRACAO-HTML-CSS-JAVASCRIPT": "css"
-		},
-		"liveServer.settings.multiRootWorkspaceName": "Jogo Velha - Arquiteto"
+		}
 	}
 }

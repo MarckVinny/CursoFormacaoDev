@@ -22,7 +22,7 @@ ___
 - [Integração HTML - CSS - JAVASCRIPT](./FUNDAMENTOS/TRILHA-WEB/INTEGRACAO-HTML-CSS-JAVASCRIPT/ANOTAÇÕES.md)
 - [Projeto Jogo da Velha](./FUNDAMENTOS/TRILHA-WEB/projeto-jogo-da-velha/ANOTACOES.md)
 
-## Módulo Especialista
+## Módulo Arquiteto
 
 ### Trilha Projetos
 
