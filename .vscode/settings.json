@@ -137,6 +137,7 @@
     "markdownlint.config": {
         "MD033": {
             "allowed_elements": [
+                "h1",
                 "sup",
                 "center"
             ]

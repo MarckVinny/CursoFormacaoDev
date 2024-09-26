@@ -3,7 +3,7 @@
 ***Este conteúdo faz parte do curso de Formação DEV da [COD3R](https://www.cod3r.com.br)***
 ___
 
-# <center />Módulo Especialista
+# <h1 align="center" />Módulo Especialista
 
 ___
 
