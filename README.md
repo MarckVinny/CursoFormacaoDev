@@ -1,19 +1,19 @@
-# Curso Formação DEV
-
-___
+# <h1 align="center" />Curso Formação DEV
 
 ***Este conteúdo faz parte do curso de Formação DEV da [COD3R](https://www.cod3r.com.br)***
 
-## Módulo Fundamentos
+___
 
-### Trilha Inicial
+# <h1 align="center" />Módulo Fundamentos
+
+## Inicial
 
 - [Estruturas de Controle](./FUNDAMENTOS/TRILHA-INICIAL/ESTRUTURAS_CONTROLE/ANOTAÇÕES.md)
 - [HTML, CSS e Javascript](./FUNDAMENTOS/TRILHA-INICIAL/HTML-CSS-JAVASCRIPT/)
 - [Operadores](./FUNDAMENTOS/TRILHA-INICIAL/OPERADORES/)
 - [Extras](./FUNDAMENTOS/TRILHA-INICIAL/EXTRAS/)
 
-### Trilha Web
+## Web
 
 - [Curso Node.js](./FUNDAMENTOS/TRILHA-WEB/CURSO-NODE/)
   - [Módulos ECMAScript](./FUNDAMENTOS/TRILHA-WEB/CURSO-NODE/modulos-ecmascript/ANOTACOES.md)
@@ -22,14 +22,14 @@ ___
 - [Integração HTML - CSS - JAVASCRIPT](./FUNDAMENTOS/TRILHA-WEB/INTEGRACAO-HTML-CSS-JAVASCRIPT/ANOTAÇÕES.md)
 - [Projeto Jogo da Velha](./FUNDAMENTOS/TRILHA-WEB/projeto-jogo-da-velha/ANOTACOES.md)
 
-## Módulo Especialista
+# <h1 align="center" />Módulo Especialista
 
-### Trilha TypeScript
+## TypeScript
 
 - [Introdução](./ESPECIALISTA/TRILHA-TYPESCRIPT/README.md)
 
-## Módulo Arquiteto
+# <h1 align="center" />Módulo Arquiteto
 
-### Trilha Projetos
+## Projetos
 
 - [Jogo da Velha](https://github.com/MarckVinny/Jogo-da-Velha/blob/main/ANOTACOES.md)
