@@ -26,7 +26,7 @@ ___
 
 ### Trilha TypeScript
 
-- [Introdução](./ESPECIALISTA/TRILHA-TYPESCRIPT/ANOTACOES.md)
+- [Introdução](./ESPECIALISTA/TRILHA-TYPESCRIPT/README.md)
 
 ## Módulo Arquiteto
 
