@@ -8,6 +8,9 @@
 		},
 		{
 			"path": "LIVES"
+		},
+		{
+			"path": "ESPECIALISTA"
 		}
 	],
 	"settings": {
