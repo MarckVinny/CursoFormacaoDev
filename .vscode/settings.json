@@ -140,7 +140,8 @@
                 "sup",
                 "center"
             ]
-        }
+        },
+        "MD025": false
     },
     "markdownlint.ignore": [],
     //! Material Icons 

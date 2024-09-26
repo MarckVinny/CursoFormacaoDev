@@ -7,7 +7,6 @@ ___
 
 ___
 
-
 ## Trilha TypeScript
 
 - [Introdução](ANOTACOES.md/#trilha-typescript---introdução)
