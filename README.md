@@ -2,7 +2,6 @@
 
 ***Este conteúdo faz parte do curso de Formação DEV da [COD3R](https://www.cod3r.com.br)***
 
-___
 
 # <h1 align="center" />Módulo Fundamentos
 
@@ -26,7 +25,12 @@ ___
 
 ## TypeScript
 
-- [Introdução](./ESPECIALISTA/TRILHA-TYPESCRIPT/README.md)
+- [Introdução](./ESPECIALISTA/TRILHA-TYPESCRIPT/ANOTACOES.md#trilha-typescript---introdução)
+- [Introdução](./ESPECIALISTA/TRILHA-TYPESCRIPT/ANOTACOES.md/#trilha-typescript---introdução)
+- [Configuração Inicial do Projeto](./ESPECIALISTA/TRILHA-TYPESCRIPT/ANOTACOES.md#configuração-inicial-do-projeto)
+- [Instalando Dependências](./ESPECIALISTA/TRILHA-TYPESCRIPT/ANOTACOES.md#instalando-dependências)
+- [Criando o Arquivo de Configuração do TypeScript](./ESPECIALISTA/TRILHA-TYPESCRIPT/ANOTACOES.md#criando-o-arquivo-de-configuração-do-typescript)
+- [Criando Scripts de Execução do Código](./ESPECIALISTA/TRILHA-TYPESCRIPT/ANOTACOES.md#criando-scripts-de-execução-do-código)
 
 # <h1 align="center" />Módulo Arquiteto
 

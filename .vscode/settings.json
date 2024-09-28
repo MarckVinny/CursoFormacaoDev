@@ -8,6 +8,8 @@
         "csrf",
         "cuiaba",
         "Cuiaba",
+        "DENO",
+        "descomente",
         "Dragislav",
         "emojify",
         "espacos",
@@ -25,6 +27,7 @@
         "Politik",
         "posicao",
         "posicoes",
+        "respawn",
         "roma",
         "Selecao",
         "seoul",
@@ -138,11 +141,12 @@
         "MD033": {
             "allowed_elements": [
                 "h1",
+                "img",
                 "sup",
                 "center"
             ]
         },
-        "MD025": false
+        "MD025": false,
     },
     "markdownlint.ignore": [],
     //! Material Icons 
