@@ -212,7 +212,7 @@ $ npm run dev
 
 Como podemos ver a seguir, o código TypeScript é interpretado corretamente pelo NodeJs retornado o valor da constante ***"3"*** e continua em execução esperando alguma alteração no arquivo para exibir o novo resultado.  
 
-<img align="center" alt="" src="./imagens/003.png" />  
+<div align="center"><img alt="" src="./imagens/003.png" /></div>
 
 Para confirmar que o comando continua observando alterações no arquivo `index.ts`, vamos realizar uma pequena alteração no código e salver para confirmar:  
 

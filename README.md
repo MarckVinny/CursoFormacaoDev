@@ -2,7 +2,6 @@
 
 ***Este conteúdo faz parte do curso de Formação DEV da [COD3R](https://www.cod3r.com.br)***
 
-
 # <h1 align="center" />Módulo Fundamentos
 
 ## Inicial
@@ -25,7 +24,6 @@
 
 ## TypeScript
 
-- [Introdução](./ESPECIALISTA/TRILHA-TYPESCRIPT/ANOTACOES.md#trilha-typescript---introdução)
 - [Introdução](./ESPECIALISTA/TRILHA-TYPESCRIPT/ANOTACOES.md/#trilha-typescript---introdução)
 - [Configuração Inicial do Projeto](./ESPECIALISTA/TRILHA-TYPESCRIPT/ANOTACOES.md#configuração-inicial-do-projeto)
 - [Instalando Dependências](./ESPECIALISTA/TRILHA-TYPESCRIPT/ANOTACOES.md#instalando-dependências)
