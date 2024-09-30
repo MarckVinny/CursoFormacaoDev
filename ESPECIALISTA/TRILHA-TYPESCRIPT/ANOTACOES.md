@@ -345,7 +345,7 @@ Agora que já temos o arquivo de test, com o test da função `somar()` definida
 
 - A primeira forma é clicando em ***"Run"*** que aparece logo acima da palavra ***"test"*** no VSCode:  
 
-  <div align='center'><img alt='007' src='./imagens/007.png' /></div>
+  <div align='center'><img alt='007' src='./imagens/007-1.png' /></div>
 
 - A outra forma é via terminal, então abra o terminal integrado do VSCode com "Ctrl + ' " ou um terminal externo (ambos precisam estar na raiz do projeto) e digite o comando a seguir:  
 
