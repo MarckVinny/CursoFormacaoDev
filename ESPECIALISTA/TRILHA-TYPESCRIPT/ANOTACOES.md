@@ -1,10 +1,12 @@
-# <h1 align="center" />Curso Formação DEV
+[< voltar](/README.md)
+
+<h1 align='center'>Curso Formação DEV</h1>
 
 ***Este conteúdo faz parte do curso de Formação DEV da [COD3R](https://www.cod3r.com.br)***
 
-# <h1 align="center" />Módulo Especialista
+<h1 align='center'>Módulo Especialista</h1>
 
-## Trilha TypeScript - Introdução
+## Introdução ao TypeScript
 
 A Linguagem TypeScript nada mais é do que um super conjunto do JavaScript, com isso, tudo que o JavaScript tem está presente no TypeScript, sendo que o TypeScript acrescenta algumas funcionalidades a mais muito importantes que irão nos ajudar nos projetos.  
 
@@ -16,7 +18,7 @@ POO é um paradigma de programação, é uma forma de pensar em como solucionar 
 Neste curso iremos abordar os fundamentos da ***Programação Orientada a Objetos - POO*** como: objetos, classes, atributos, métodos, etc.  
 Iremos falar sobre os pilares da POO como: encapsulamento, herança e polimorfismo, com isso, este curso é duplamente importante contemplando TypeScript e POO.  
 
-[^ Sumário ^](README.md)
+[^ Sumário ^](./README.md)
 
 ## Configuração Inicial do Projeto
 
@@ -83,7 +85,9 @@ Esse comando serve para abrir o VSCode dentro da pasta do projeto.
 
   Pois `const x: number` definindo o tipo da da constante, não é algo do JavaScript, mas sim do TypeScript e por padrão o NodeJs não consegue interpretar esse valor.
 
-  <img align="center" alt="erro execução typescript" src=./imagens/001.png />  
+  <div align='center'><img alt='' src='./imagens/001.png' /></div>
+
+[^ Sumário ^](./README.md)
 
 ## Instalando Dependências
 
@@ -124,6 +128,8 @@ Com a execução desta linha de comando acima, instalamos as dependências de de
 }
 ```
 
+[^ Sumário ^](./README.md)
+
 ## Criando o Arquivo de Configuração do TypeScript
 
 Agora precisamos rodar mais um comando no terminal na raiz do projeto:  
@@ -139,6 +145,8 @@ O comando acima cria o arquivo de configuração do TypeScript o `ts-config.ts`,
 Procure o parâmetro `ourDir: "./",` descomente a linha retirando o "#" do inicio e altere para `outDir: "dist",` que será nossa pasta de destino.  
 
 Mais adiante podemos alterar mais alguma configuração neste arquivo, mas, por enquanto é só, salve as alterações e feche o arquivo.  
+
+[^ Sumário ^](./README.md)
 
 ## Criando Scripts de Execução do Código
 
@@ -180,7 +188,7 @@ Cria o script chamado ***"build"*** que quando executado irá compilar *(convert
 
   Mas, se executar-mos o comando para rodar o arquivo `index.js` que acabamos de compilar, ele irá retornar o valor da variável sem nenhum erro, então, execute o comando `node dist/index.js` no terminal e verifique o resultado:  
 
-  <img align="center" alt="" src="./imagens/002.png" />  
+  <div align='center'><img alt='' src='./imagens/002.png' /></div>
 
 - `"dev": "ts-node-dev --respawn src/index.ts,`:  
 Acima criamos um script chamado "dev" que executa os seguintes comando:  
@@ -226,6 +234,6 @@ console.log(x * 7);
 
 Como podemos observar na imagem abaixo, após a alteração no código, o script restartou exibindo o novo resultado ***"21"***.  
 
-<img align="center" alt="" src="./imagens/004.png" />  
+<div align='center'><img alt='' src='./imagens/004.png' /></div>
 
 E para encerrar o comando, basta digitar a combinação de teclas `Ctrl + D`, caso esteja utilizando o windows.  

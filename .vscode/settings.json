@@ -142,6 +142,7 @@
             "allowed_elements": [
                 "h1",
                 "img",
+                "div",
                 "sup",
                 "center"
             ]

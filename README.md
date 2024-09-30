@@ -24,7 +24,7 @@
 
 ## TypeScript
 
-- [Introdução](./ESPECIALISTA/TRILHA-TYPESCRIPT/ANOTACOES.md/#trilha-typescript---introdução)
+- [Introdução ao TypeScript](./ESPECIALISTA/TRILHA-TYPESCRIPT/ANOTACOES.md/#introdução-ao-typescript)
 - [Configuração Inicial do Projeto](./ESPECIALISTA/TRILHA-TYPESCRIPT/ANOTACOES.md#configuração-inicial-do-projeto)
 - [Instalando Dependências](./ESPECIALISTA/TRILHA-TYPESCRIPT/ANOTACOES.md#instalando-dependências)
 - [Criando o Arquivo de Configuração do TypeScript](./ESPECIALISTA/TRILHA-TYPESCRIPT/ANOTACOES.md#criando-o-arquivo-de-configuração-do-typescript)
