@@ -13,3 +13,4 @@
 - [Instalando Dependências](./ANOTACOES.md#instalando-dependências)
 - [Criando o Arquivo de Configuração do TypeScript](./ANOTACOES.md#criando-o-arquivo-de-configuração-do-typescript)
 - [Criando Scripts de Execução do Código](./ANOTACOES.md#criando-scripts-de-execução-do-código)
+- [Configurando Testes - JEST](./ANOTACOES.md#configurando-testes---jest)

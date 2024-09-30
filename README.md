@@ -29,6 +29,7 @@
 - [Instalando Dependências](./ESPECIALISTA/TRILHA-TYPESCRIPT/ANOTACOES.md#instalando-dependências)
 - [Criando o Arquivo de Configuração do TypeScript](./ESPECIALISTA/TRILHA-TYPESCRIPT/ANOTACOES.md#criando-o-arquivo-de-configuração-do-typescript)
 - [Criando Scripts de Execução do Código](./ESPECIALISTA/TRILHA-TYPESCRIPT/ANOTACOES.md#criando-scripts-de-execução-do-código)
+- [Configurando Testes  - JEST](./ESPECIALISTA/TRILHA-TYPESCRIPT/ANOTACOES.md#configurando-testes---jest)
 
 # <h1 align="center" />Módulo Arquiteto
 

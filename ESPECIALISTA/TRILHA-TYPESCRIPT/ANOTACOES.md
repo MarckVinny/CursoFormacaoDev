@@ -96,7 +96,7 @@ Agora iremos instalar duas dependências para que o projeto TypeScript possa fun
 ```zsh
 // Terminal
 
-npm i -D typescript ts-node-dev
+npm i -D typescript ts-node-dev @types/node
 ```
 
 Agora vamos entender o que cada comando faz:  
@@ -111,6 +111,8 @@ Agora vamos entender o que cada comando faz:
 
 - `ts-node-dev`: é o pacote que dá suporte a executar comando TypeScript no NodeJs.  
 
+- `@types/node`: é o pacote que dá suporte aos Tipos do NodeJs, auxiliando na verificação dos comando na hora que estamos digitando.
+
 >> ***DICA:***  
 Existe um novo RunTime TypeScript chamado ***[DENO](https://deno.com/)*** que seria NODE escrito com as sílabas invertidas, é do mesmo criador do NODE "Ryan Dahl", mas ainda está em fase inicial.  
 O DENO, interpreta nativamente o TypeScript sem a necessidade de se instalar pacotes externos e talvez mais a frente possamos ou não configurar ele no projeto.  
@@ -122,6 +124,7 @@ Com a execução desta linha de comando acima, instalamos as dependências de de
 
 ...
   "devDependencies": {
+    "@types/node": "^22.7.4",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.6.2"
   }
@@ -237,3 +240,145 @@ Como podemos observar na imagem abaixo, após a alteração no código, o script
 <div align='center'><img alt='' src='./imagens/004.png' /></div>
 
 E para encerrar o comando, basta digitar a combinação de teclas `Ctrl + D`, caso esteja utilizando o windows.  
+
+[^ Sumário ^](./README.md)
+
+## Configurando Testes - JEST
+
+Agora iremos instalar duas dependências para que possamos realizar testes no projeto. O pacote de teste que iremos utilizar é o Jest, para isso, abra o terminal na raiz do Projeto e rode o seguinte comando:  
+
+```zsh
+// Terminal
+
+npm i -D jest ts-jest @types/jest
+```
+
+Agora vamos entender o que cada comando faz:  
+
+- `npm`: é o comando que "busca" o pacote no site do [NPM](https://www.npmjs.com/) que é um repositório de diversos pacotes para diversas funcionalidades do NodeJs.  
+
+- `i` ou `install`: é o parâmetro de instalação do pacote.  
+
+- `-D`: se atente que é a letra "D" maiúscula, isso indica que o pacote será instalado como uma ***"Dependência de Desenvolvimento"*** e se omitir o "-D" será instalado como uma dependência de produção.  
+
+- `jest`: é o pacote que dá suporte ao Jest.  
+
+- `ts-jest`: é o pacote que dá suporte a executar comando TypeScript no Jest.  
+
+- `@types/jest`: é o pacote que dá suporte aos Tipos do Jest, auxiliando na verificação dos comando na hora que estamos digitando.
+
+  Com a execução desta linha de comando acima, instalamos as dependências de desenvolvimento resultando na atualização do arquivo `package.json` adicionando as `devDependencies:` como podemos ver a seguir:
+
+  ```json
+  // package.json
+
+  ...
+    "devDependencies": {
+      "@types/jest": "^29.5.13",
+      "jest": "^29.7.0",
+      "ts-jest": "^29.2.5",
+  ...
+  ```
+
+O próximo passo é criar um arquivo de configuração para o Jest, para isso, acesse a raiz do projeto no caminho ***"C:/Projetos/CursoTypeScript/iniciando-com-typescript/"*** e crie um arquivo chamado `jest.config.js` e dentro deste arquivo adicione o conteúdo a seguir:  
+
+```js
+// jest.config.js
+
+module.exports = {
+  preset: "ts-jest",
+  testEnvironment: "node"
+}
+```
+
+Agora vamos entender o que cada parte do código faz:  
+
+- `module.exports = {`: comando JavaScript que exporta um módulo NodeJs, criando um Objeto com as definições do Módulo Jest.  
+
+  - `preset: "ts-jest,"`: que é o pacote que acabou de ser instalado.  
+
+  - `testEnvironment: "node"`: define o ambiente de teste que neste cado é o NodeJs.
+
+- `}`: fecha o Objeto com as definições do Módulo Jest.  
+
+  >> ***DICA:***  
+  Instale a extensão ***Jest Runner*** no VSCode para facilitar a criação de testes visualmente.  
+
+  <div align='center'><img alt='Jest Runner' src='./imagens/006.png' /></div>
+
+Com isso, temos o arquivo de configuração do Jest finalizado, mas, ainda precisamos criar a pasta/diretório onde serão criados os arquivos de test.  
+
+Então, dentro da pasta/diretório raiz do projeto, crie uma pasta chamada `test/`.  
+
+Agora para que possamos verificar se tudo está funcionando perfeitamente, então, dentro de `src/`, vamos criar um arquivo de teste temporário chamado `calc.ts` que poderá ser deletado posteriormente.  
+
+Dentro deste arquivo, iremos adicionar o código abaixo que realiza uma SOMA entre dois números:  
+
+```ts
+// calc.ts
+
+export function somar(a: number, b: number): number {
+  return a + b
+}
+
+```
+
+Agora que já temos um arquivo que contém uma função, podemos criar o arquivo de teste, então, dentro da pasta/diretório chamada `test/`que está dentro da raiz do projeto, crie um arquivo chamado `calc.test.ts`, observe que para que o sistema reconheça que o arquivo é um arquivo de teste, ele precisa ter o mesmo nome do arquivo que será testado acrescentando o termo ***".test"*** e terminando com a extensão ***".ts"***
+
+>> ***BOA PRÁTICA:***  
+Uma boa prática é respeitar a mesma estrutura de pastas do projeto dentro da pasta de `test/`para facilitar a identificação dos arquivos visualmente.  
+
+Agora vamos definir os testes no arquivo `calc.test.ts`:  
+
+```ts
+// calc.test.ts
+
+import { somar } from "../src/calc"
+
+test('Deve somar corretamente', () => {
+  const resultado = somar(12, 20)
+  expect(resultado).toBe(32)
+})
+```
+
+Agora que já temos o arquivo de test, com o test da função `somar()` definida dentro dele, podemos realizar o teste de duas formas:  
+
+- A primeira forma é clicando em ***"Run"*** que aparece logo acima da palavra ***"test"*** no VSCode:  
+
+  <div align='center'><img alt='007' src='./imagens/007.png' /></div>
+
+- A outra forma é via terminal, então abra o terminal integrado do VSCode com "Ctrl + ' " ou um terminal externo (ambos precisam estar na raiz do projeto) e digite o comando a seguir:  
+
+  ```zsh
+  // Terminal
+
+  $ npm test
+  ```
+  
+  <div align='center'><img alt='008' src='./imagens/008.png' /></div>
+  
+  Em nosso caso o comando vai falhar, pois precisamos configurar o script de teste `"test": "jest"` no arquivo `package.json`, então abra e altere com as informações a seguir:  
+  
+  ```json
+  // package.json
+  
+  ...
+    "scripts": {
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn src/index.ts",
+    "test": "jest"
+  },
+  ...
+  ```
+
+  Agora, realize o teste novamente no terminal:
+
+  ```zsh
+  // Terminal
+
+  $ npm test
+  ```
+  
+  <div align='center'><img alt='009' src='./imagens/009.png' /></div>
+  
+  Como podemos confirmar, o teste foi executado corretamente.
